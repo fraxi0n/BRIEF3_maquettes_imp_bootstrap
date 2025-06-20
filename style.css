@@ -1,0 +1,46 @@
+:root {
+
+    --primary-color : #4A148C;
+    --secondary-color : #4A148C;
+    --tertiary-color : #FFEB3B;
+    --black : #121212;
+    --white : #E0E0E0;
+
+
+    font-family: robo;
+
+}
+
+
+
+.TTT {
+    background-color : tomato
+}
+
+
+.burger-menu { 
+    height: 40px;
+    justify-self: end;
+    color: var(--white);
+
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+
+}
+
+.logo {
+    color: violet;
+    background-color: var(--primary-color);
+    height: 50px;
+}
+
+h1 {
+    color: var(--white);
+
+}
