@@ -11,10 +11,17 @@
 
   <!-- Ton CSS perso -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/custom.css"> <!-- Ton SCSS compilé ici -->
+
+  <!-- <link rel="stylesheet" href="css/bootstrap.min.css">
+<link href="/css/custom.scss" rel="stylesheet"> -->
+
+<link rel="stylesheet" href="/css/style.css">
+
+
 
   <script src="js/bootstrap.bundle.min.js"></script>
-  <script src="script.js"></script>
+  <script src="js/script.js"></script>
 
 
 </head>
@@ -22,7 +29,6 @@
 <body>
 
   <header>
-
 
     <div class="accordion" id="accordionExample">
       <div class="accordion-item">
@@ -33,7 +39,7 @@
             <button class="header btn" type="" data-bs-toggle="collapse" data-bs-target="#collapseOne"
               aria-expanded="true" aria-controls="collapseOne">
 
-              <div class="d-flex tc">
+              <div class="d-flex align-items-center tc">
 
                 <img class="logo" src="src/ressources/logo.svg" alt="logo nexus CLASH">
 
@@ -43,7 +49,7 @@
                 </h1>
               </div>
 
-              <div class ="p-2 border border-2 rounded-circle tc-border ">
+              <div class="p-2 border border-2 rounded-circle tc-border ">
 
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#FFEB3B" class="bi bi-list"
                   viewBox="0 0 16 16">
@@ -111,8 +117,10 @@
 
 
 
-      <div class='main-title-box'>
-        <h2> QUEST CE QUE NEXUS CLASH</h2>
+      <div class='badge bg-primary text-light fs-5'>
+        <h2 class=""> QUEST CE QUE NEXUS CLASH</h2>
+        <p class=""></p>
+
       </div>
 
       <h3>
@@ -149,18 +157,58 @@
     <section>
 
 
-    </section>
-    <section>
+
+        <h1 class="mb-4">🎨 Test des classes Bootstrap avec SCSS custom</h1>
+
+        <div class="mb-3">
+          <button class="btn btn-primary">Bouton Primary</button>
+          <button class="btn btn-secondary">Bouton Secondary</button>
+          <button class="btn btn-success">Bouton Success</button>
+          <button class="btn btn-danger">Bouton Danger</button>
+          <button class="btn btn-warning">Bouton Warning</button>
+          <button class="btn btn-info">Bouton Info</button>
+          <button class="btn btn-light">Bouton Light</button>
+          <button class="btn btn-dark">Bouton Dark</button>
+        </div>
+
+        <div class="mb-3">
+          <span class="badge bg-primary">Badge Primary</span>
+          <span class="badge bg-secondary">Badge Secondary</span>
+          <span class="badge bg-success">Badge Success</span>
+          <span class="badge bg-danger">Badge Danger</span>
+          <span class="badge bg-warning text-dark">Badge Warning</span>
+          <span class="badge bg-info text-dark">Badge Info</span>
+          <span class="badge bg-light text-dark">Badge Light</span>
+          <span class="badge bg-dark">Badge Dark</span>
+        </div>
+
+        <div class="mb-3">
+          <div class="alert alert-primary" role="alert">
+            Alerte Primary
+          </div>
+          <div class="alert alert-success" role="alert">
+            Alerte Success
+          </div>
+          <div class="alert alert-danger" role="alert">
+            Alerte Danger
+          </div>
+          <div class="alert alert-warning" role="alert">
+            Alerte Warning
+          </div>
+          <div class="alert alert-info" role="alert">
+            Alerte Info
+          </div>
+        </div>
+
+
+
 
     </section>
+
 
   </main>
 
 
-  <!-- Bootstrap JS (avec Popper si besoin) -->
-  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> -->
-
-  <!-- Ton script JS -->
 </body>
 
 </html>
