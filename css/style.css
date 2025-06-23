@@ -5,8 +5,38 @@
     --tertiary-color: #FFEB3B;
     --black: #121212;
     --white: #E0E0E0;
-    font-family: robo;
+
+
 }
+
+
+
+.orbitron {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 
 .pc {
     color: var(--primary-color)!important;
@@ -58,6 +88,7 @@
 
 .h1-font {
     color: var(--white);
+    font-size: 40px;
 }
 
 .banner {
