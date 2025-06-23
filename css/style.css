@@ -63,7 +63,7 @@
 .banner {
     display: flex;
     align-items: center;
-    background-image: url(src/ressources/banner_960.webp);
+    background-image: url(../src/ressources/banner_960.webp);
     background-size: cover;
     background-position: center;
     height: 300px;

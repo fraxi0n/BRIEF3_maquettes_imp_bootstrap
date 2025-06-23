@@ -1,1 +1,23 @@
-/node_module
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings (facultatif si tu ne veux pas les partager)
+.vscode/
+
+# Environnement local
+.env
+.env.local
+
+# Build / cache (si un jour tu ajoutes des outils)
+dist/
+build/
+.cache/
