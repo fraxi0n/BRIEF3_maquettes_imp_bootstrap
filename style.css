@@ -1,10 +1,10 @@
 :root {
 
-    --primary-color : #4A148C;
-    --secondary-color : #4A148C;
-    --tertiary-color : #FFEB3B;
-    --black : #121212;
-    --white : #E0E0E0;
+    --primary-color: #4A148C;
+    --secondary-color: #4A148C;
+    --tertiary-color: #FFEB3B;
+    --black: #121212;
+    --white: #E0E0E0;
 
 
     font-family: robo;
@@ -14,11 +14,11 @@
 
 
 .TTT {
-    background-color : tomato
+    background-color: tomato
 }
 
 
-.burger-menu { 
+.burger-menu {
     height: 40px;
     justify-self: end;
     color: var(--white);
@@ -28,7 +28,7 @@
 .header {
     display: flex;
     width: 100%;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     background-color: var(--primary-color);
 
@@ -40,7 +40,44 @@
     height: 50px;
 }
 
-h1 {
+.h1-font {
     color: var(--white);
 
 }
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(src/ressources/banner_960.webp);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+
+
+}
+
+.glass-card {
+
+
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(4px);
+    padding: 20px;
+    margin: 20px;
+    max-width: 500px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+
+h1 {
+
+    font-size: 38px;
+}
+
+
+
+
