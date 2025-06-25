@@ -6,43 +6,51 @@
     --black: #121212;
     --white: #E0E0E0;
 
-
 }
 
 
+body {
+    margin: 0;
+    background-color: var(--black);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
 
 .orbitron {
-  font-family: "Orbitron", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
 
 
 .roboto {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 
 .montserrat {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 
 
 .pc {
-    color: var(--primary-color)!important;
+    color: var(--primary-color) !important;
 }
+
 .tc {
-    color: var(--tertiary-color)!important;
+    color: var(--tertiary-color) !important;
 }
 
 .tc-border {
@@ -81,9 +89,6 @@
 
 .burger-border {
     border-radius: 20px
-
-
-
 }
 
 .h1-font {
@@ -112,11 +117,26 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-
 h1 {
     font-size: 38px;
 }
 
+.shadow-text-tc {
+    text-shadow: 0 3px 6px #ffeb3b7c !important ;
+
+}
 
 
+.shadow-box-tc {
+
+    box-shadow : 0 3px 6px #ffeb3b7c !important;
+
+}
+
+.main-space {
+    margin: 10px;
+    max-width : 700px;
+
+
+}
 
