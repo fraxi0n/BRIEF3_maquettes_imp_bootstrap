@@ -159,13 +159,25 @@ h1 {
     height: 150px
 } 
 
+/* responsive  */
+
+
+.is-mobile-display-none {
+    display: none;
+}
 
 @media (min-width: 1050px) { 
     
+    .is-mobile-display-none {
+        display: flex;
+    }
+    
     .is-desktop-display-none {
-        
         display: none;
-        
+    }
+    
+    .header {
+        justify-content: space-between;
     }
     
 }
