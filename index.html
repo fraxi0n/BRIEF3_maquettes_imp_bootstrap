@@ -2,8 +2,8 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>NEXUS CLASH</title>
     
     <!-- Bootstrap CSS -->
@@ -47,8 +47,7 @@
                 
                 
                 <div class="accordion-header">
-                    <button class="header btn" type="" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                    aria-expanded="false" aria-controls="collapseOne">
+                    <div class="header btn" role="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                     
                     <div class="d-flex align-items-center tc">
                         
@@ -69,7 +68,7 @@
                     
                 </div>
                 
-            </button>
+                    </div>
         </div>
         
         <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -77,16 +76,16 @@
                 
                 <nav>
                 <div class="btn-group-vertical w-100" role="group" aria-label="Vertical button group">
-                    <button type="button" class="btn btn-primary">
-                        <a class="nav-link fs-5 text-light p-0 montserrat"aria-current="page" href="#">Accueil</a>
-                    </button>
-                    <button type="button" class="btn btn-primary">
+                    <div   class="btn btn-primary">
+                        <a class="nav-link fs-5 text-light p-0 montserrat" aria-current="page" href="#">Accueil</a>
+                    </div>
+                    <div   class="btn btn-primary">
                         <a class="nav-link fs-5 text-light p-0 montserrat" href="#">Tournois</a>
                         
-                    </Tournois>
-                    <button type="button" class="btn btn-secondary">
+                    </div>
+                    <div   class="btn btn-secondary">
                         <a class="nav-link fs-5 text-light p-0 montserrat text-decoration-underline" href="#">Participer</a>
-                    </button>
+                    </div>
                 </div>
                 
 
@@ -118,7 +117,7 @@
         
         <ul class="nav  gap-5 px-3 ml-4">
             <li class="nav-item">
-                <a class="nav-link fs-5 text-light p-0 montserrat"aria-current="page" href="#">Accueil</a>
+                <a class="nav-link fs-5 text-light p-0 montserrat" aria-current="page" href="#">Accueil</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link fs-5 text-light p-0 montserrat" href="#">Tournois</a>
@@ -200,7 +199,6 @@
                             Déguster
                         </li>
                     </ol>
-                </p>
             </div>
             
         </div>
@@ -289,12 +287,11 @@
                 <div class="d-flex justify-content-center flex-wrap m-3 gap-4">
                     
                     <div class="mb-1 champ">
-                        <label for="name" class="form-label">Prénom</label>
+                        <label for="firstNameInput" class="form-label">Prénom</label>
                         <input type="text" class="form-control" id="firstNameInput" aria-describedby="emailHelp">
-                        <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
                     </div>
                     <div class="mb-1 champ">
-                        <label for="exampleInputPassword1" class="form-label">Nom</label>
+                        <label for="nameInput" class="form-label">Nom</label>
                         <input type="text" class="form-control" id="nameInput">
                     </div>
                     
@@ -303,12 +300,12 @@
                 <div class="d-flex justify-content-center flex-wrap m-3 gap-4">
                     
                     <div class="mb-1 champ">
-                        <label for="exampleInputPassword1" class="form-label">Pseudo</label>
+                        <label for="pseudoInput" class="form-label">Pseudo</label>
                         <input type="text" class="form-control" id="pseudoInput">
                     </div>
                     
                     <div class="mb-1 champ">
-                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                        <label for="mailInput" class="form-label">Email</label>
                         <input type="email" class="form-control" id="mailInput" aria-describedby="emailHelp">
                         <div id="emailHelp" class="form-text">vos informations ne seront jamais partagé.</div>
                     </div>
