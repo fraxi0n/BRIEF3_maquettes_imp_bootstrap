@@ -101,7 +101,7 @@ body {
 .banner {
     display: flex;
     align-items: center;
-    background-image: url(../src/ressources/banner_960.webp);
+    background-image: url(../src/ressources/banner_480.webp);
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -172,6 +172,19 @@ h1 {
     display: none;
 }
 
+    
+@media (min-width: 480px) 
+{
+    .banner {
+
+    background-image: url(../src/ressources/banner_960.webp);
+
+}
+ 
+
+}
+
+
 @media (min-width: 1050px) { 
     
     .is-mobile-display-none {
@@ -186,4 +199,9 @@ h1 {
         justify-content: space-between;
     }
     
+    .banner {
+
+    background-image: url(../src/ressources/banner_1920.webp);
+
+}
 }

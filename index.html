@@ -27,18 +27,19 @@
     <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@700&family=Roboto&display=swap"
     rel="stylesheet">
-
-
+    
+    <script>
+        function alertForm ()
+        {
+            alert(" '(>_<)'  ")
+        }
+    </script>
     
 </head>
 
 <body>
     
     <header>
-        
-        
-        
-        
         
         <!-- mobile only -->
         <div class="accordion is-desktop-display-none" id="accordionExample">
@@ -71,24 +72,26 @@
             </button>
         </div>
         
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-            
-            <ul class="nav">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Active</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
+        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body p-0">
                 
-            </ul>
-            
-            
+                <nav>
+                <div class="btn-group-vertical w-100" role="group" aria-label="Vertical button group">
+                    <button type="button" class="btn btn-primary">
+                        <a class="nav-link fs-5 text-light p-0 montserrat"aria-current="page" href="#">Accueil</a>
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                        <a class="nav-link fs-5 text-light p-0 montserrat" href="#">Tournois</a>
+                        
+                    </Tournois>
+                    <button type="button" class="btn btn-secondary">
+                        <a class="nav-link fs-5 text-light p-0 montserrat text-decoration-underline" href="#">Participer</a>
+                    </button>
+                </div>
+                
+
+                </nav>
+                
         </div>
     </div>
 </div>
@@ -273,7 +276,7 @@
     
     <div class = "d-flex justify-content-center opacity-25" >
         <img class="rounded-circle shadow-box-tc w-25 main-logo " src="src/ressources/logo.svg" alt="logo nexus CLASH">
-
+        
     </div>
     
     <section class=" d-flex justify-content-center m-3 ">
@@ -317,7 +320,7 @@
                     <label class="form-check-label" for="exampleCheck1">J'accepte que mes donnés soient enregistrées,
                         conformément à la politique de confidentialité </label>
                     </div>
-                    <button type="submit"
+                    <button id="DOM_form_button" type="submit" onclick="alertForm()"
                     class="btn btn-primary orbitron m-3 fs-3 fw-bold p-3 border-2 border-tertiary">Envoyer</button>
                 </form>
                 
@@ -339,10 +342,9 @@
                 </div>
             </div>
             
-            <div class="d-flex flex-wrap" >
+            <div class="d-flex flex-wrap justify-content-center" >
                 <a href="/pages/404.html" class="p-4 montserrat fs-4 text-light">Mention légales</a> 
                 
-                <a href="/pages/404.html"  class="p-4 montserrat fs-4 text-light">Politique de confidentialité</a>
                 
             </div>
         </div>
